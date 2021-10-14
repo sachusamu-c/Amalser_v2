@@ -21,9 +21,9 @@ Ktb.addCommand({pattern: 'insta ?(.*)', fromMe: false, desc: "Downloads from ins
 
     reply = await message.client.sendMessage(message.jid,UPLOAD_ING , MessageType.text, { quoted: message.data });
     
-    if (type === 'image') return await message.sendMessage(data, MessageType.image, { caption: "*ᴍᴀᴅᴇ ʙʏ ᴡʜɪᴛᴇ ᴅᴇᴠɪʟ*", quoted: message.data })
+    if (type === 'image') return await message.sendMessage(data, MessageType.image, { caption: "*ᴍᴀᴅᴇ ʙʏ 𝐊𝐈𝐋𝐋𝐀𝐃𝐈 𝐁𝐎𝐓*", quoted: message.data })
     
-    if (type === 'video') return await message.sendMessage(data, MessageType.video, { caption: "*ᴍᴀᴅᴇ ʙʏ ᴡʜɪᴛᴇ ᴅᴇᴠɪʟ*", quoted: message.data })
+    if (type === 'video') return await message.sendMessage(data, MessageType.video, { caption: "*ᴍᴀᴅᴇ ʙʏ 𝐊𝐈𝐋𝐋𝐀𝐃𝐈 𝐁𝐎𝐓*", quoted: message.data })
     
 });
     
